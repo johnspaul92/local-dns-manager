@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63D6C00204696F800103CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6BFF204696F800103CF3 /* AppDelegate.swift */; };
+		C63D6C02204696F800103CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63D6C01204696F800103CF3 /* Assets.xcassets */; };
+		C63D6C05204696F800103CF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63D6C03204696F800103CF3 /* MainMenu.xib */; };
+		C63D6C11204696F800103CF3 /* Local_DNS_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C10204696F800103CF3 /* Local_DNS_ManagerTests.swift */; };
+		C63D6C1C204696F800103CF3 /* Local_DNS_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C1B204696F800103CF3 /* Local_DNS_ManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63D6C0D204696F800103CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63D6BF4204696F800103CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63D6BFB204696F800103CF3;
+			remoteInfo = "Local DNS Manager";
+		};
+		C63D6C18204696F800103CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63D6BF4204696F800103CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63D6BFB204696F800103CF3;
+			remoteInfo = "Local DNS Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63D6BFC204696F800103CF3 /* Local DNS Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local DNS Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63D6BFF204696F800103CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C63D6C01204696F800103CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63D6C04204696F800103CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C63D6C06204696F800103CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63D6C07204696F800103CF3 /* Local_DNS_Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Local_DNS_Manager.entitlements; sourceTree = "<group>"; };
+		C63D6C0C204696F800103CF3 /* Local DNS ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local DNS ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63D6C10204696F800103CF3 /* Local_DNS_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_DNS_ManagerTests.swift; sourceTree = "<group>"; };
+		C63D6C12204696F800103CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63D6C17204696F800103CF3 /* Local DNS ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local DNS ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63D6C1B204696F800103CF3 /* Local_DNS_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_DNS_ManagerUITests.swift; sourceTree = "<group>"; };
+		C63D6C1D204696F800103CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63D6BF9204696F800103CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63D6C09204696F800103CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63D6C14204696F800103CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63D6BF3204696F800103CF3 = {
+			isa = PBXGroup;
+			children = (
+				C63D6BFE204696F800103CF3 /* Local DNS Manager */,
+				C63D6C0F204696F800103CF3 /* Local DNS ManagerTests */,
+				C63D6C1A204696F800103CF3 /* Local DNS ManagerUITests */,
+				C63D6BFD204696F800103CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63D6BFD204696F800103CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63D6BFC204696F800103CF3 /* Local DNS Manager.app */,
+				C63D6C0C204696F800103CF3 /* Local DNS ManagerTests.xctest */,
+				C63D6C17204696F800103CF3 /* Local DNS ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63D6BFE204696F800103CF3 /* Local DNS Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C63D6BFF204696F800103CF3 /* AppDelegate.swift */,
+				C63D6C01204696F800103CF3 /* Assets.xcassets */,
+				C63D6C03204696F800103CF3 /* MainMenu.xib */,
+				C63D6C06204696F800103CF3 /* Info.plist */,
+				C63D6C07204696F800103CF3 /* Local_DNS_Manager.entitlements */,
+			);
+			path = "Local DNS Manager";
+			sourceTree = "<group>";
+		};
+		C63D6C0F204696F800103CF3 /* Local DNS ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63D6C10204696F800103CF3 /* Local_DNS_ManagerTests.swift */,
+				C63D6C12204696F800103CF3 /* Info.plist */,
+			);
+			path = "Local DNS ManagerTests";
+			sourceTree = "<group>";
+		};
+		C63D6C1A204696F800103CF3 /* Local DNS ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C63D6C1B204696F800103CF3 /* Local_DNS_ManagerUITests.swift */,
+				C63D6C1D204696F800103CF3 /* Info.plist */,
+			);
+			path = "Local DNS ManagerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63D6BFB204696F800103CF3 /* Local DNS Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63D6C20204696F800103CF3 /* Build configuration list for PBXNativeTarget "Local DNS Manager" */;
+			buildPhases = (
+				C63D6BF8204696F800103CF3 /* Sources */,
+				C63D6BF9204696F800103CF3 /* Frameworks */,
+				C63D6BFA204696F800103CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Local DNS Manager";
+			productName = "Local DNS Manager";
+			productReference = C63D6BFC204696F800103CF3 /* Local DNS Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C63D6C0B204696F800103CF3 /* Local DNS ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63D6C23204696F800103CF3 /* Build configuration list for PBXNativeTarget "Local DNS ManagerTests" */;
+			buildPhases = (
+				C63D6C08204696F800103CF3 /* Sources */,
+				C63D6C09204696F800103CF3 /* Frameworks */,
+				C63D6C0A204696F800103CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63D6C0E204696F800103CF3 /* PBXTargetDependency */,
+			);
+			name = "Local DNS ManagerTests";
+			productName = "Local DNS ManagerTests";
+			productReference = C63D6C0C204696F800103CF3 /* Local DNS ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C63D6C16204696F800103CF3 /* Local DNS ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63D6C26204696F800103CF3 /* Build configuration list for PBXNativeTarget "Local DNS ManagerUITests" */;
+			buildPhases = (
+				C63D6C13204696F800103CF3 /* Sources */,
+				C63D6C14204696F800103CF3 /* Frameworks */,
+				C63D6C15204696F800103CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63D6C19204696F800103CF3 /* PBXTargetDependency */,
+			);
+			name = "Local DNS ManagerUITests";
+			productName = "Local DNS ManagerUITests";
+			productReference = C63D6C17204696F800103CF3 /* Local DNS ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63D6BF4204696F800103CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TechNut;
+				TargetAttributes = {
+					C63D6BFB204696F800103CF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C63D6C0B204696F800103CF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C63D6BFB204696F800103CF3;
+					};
+					C63D6C16204696F800103CF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C63D6BFB204696F800103CF3;
+					};
+				};
+			};
+			buildConfigurationList = C63D6BF7204696F800103CF3 /* Build configuration list for PBXProject "Local DNS Manager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63D6BF3204696F800103CF3;
+			productRefGroup = C63D6BFD204696F800103CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63D6BFB204696F800103CF3 /* Local DNS Manager */,
+				C63D6C0B204696F800103CF3 /* Local DNS ManagerTests */,
+				C63D6C16204696F800103CF3 /* Local DNS ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63D6BFA204696F800103CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63D6C02204696F800103CF3 /* Assets.xcassets in Resources */,
+				C63D6C05204696F800103CF3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63D6C0A204696F800103CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63D6C15204696F800103CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63D6BF8204696F800103CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63D6C00204696F800103CF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63D6C08204696F800103CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63D6C11204696F800103CF3 /* Local_DNS_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63D6C13204696F800103CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63D6C1C204696F800103CF3 /* Local_DNS_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C63D6C0E204696F800103CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63D6BFB204696F800103CF3 /* Local DNS Manager */;
+			targetProxy = C63D6C0D204696F800103CF3 /* PBXContainerItemProxy */;
+		};
+		C63D6C19204696F800103CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63D6BFB204696F800103CF3 /* Local DNS Manager */;
+			targetProxy = C63D6C18204696F800103CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C63D6C03204696F800103CF3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63D6C04204696F800103CF3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63D6C1E204696F800103CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63D6C1F204696F800103CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C63D6C21204696F800103CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Local DNS Manager/Local_DNS_Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Local DNS Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.technut.Local-DNS-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C63D6C22204696F800103CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Local DNS Manager/Local_DNS_Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Local DNS Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.technut.Local-DNS-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C63D6C24204696F800103CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Local DNS ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.technut.Local-DNS-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Local DNS Manager.app/Contents/MacOS/Local DNS Manager";
+			};
+			name = Debug;
+		};
+		C63D6C25204696F800103CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Local DNS ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.technut.Local-DNS-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Local DNS Manager.app/Contents/MacOS/Local DNS Manager";
+			};
+			name = Release;
+		};
+		C63D6C27204696F800103CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Local DNS ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.technut.Local-DNS-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Local DNS Manager";
+			};
+			name = Debug;
+		};
+		C63D6C28204696F800103CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Local DNS ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.technut.Local-DNS-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Local DNS Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63D6BF7204696F800103CF3 /* Build configuration list for PBXProject "Local DNS Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63D6C1E204696F800103CF3 /* Debug */,
+				C63D6C1F204696F800103CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63D6C20204696F800103CF3 /* Build configuration list for PBXNativeTarget "Local DNS Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63D6C21204696F800103CF3 /* Debug */,
+				C63D6C22204696F800103CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63D6C23204696F800103CF3 /* Build configuration list for PBXNativeTarget "Local DNS ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63D6C24204696F800103CF3 /* Debug */,
+				C63D6C25204696F800103CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63D6C26204696F800103CF3 /* Build configuration list for PBXNativeTarget "Local DNS ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63D6C27204696F800103CF3 /* Debug */,
+				C63D6C28204696F800103CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C63D6BF4204696F800103CF3 /* Project object */;
+}
