@@ -54,6 +54,7 @@
 		C63D6C332046D16600103CF3 /* HostFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostFileManager.swift; sourceTree = "<group>"; };
 		C63D6C352046F64F00103CF3 /* AddNewWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewWindow.swift; sourceTree = "<group>"; };
 		C63D6C362046F64F00103CF3 /* AddNewWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewWindow.xib; sourceTree = "<group>"; };
+		C63D6C392047CCF300103CF3 /* Local DNS Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Local DNS Manager.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 		C63D6BFE204696F800103CF3 /* Local DNS Manager */ = {
 			isa = PBXGroup;
 			children = (
+				C63D6C392047CCF300103CF3 /* Local DNS Manager.entitlements */,
 				C63D6C332046D16600103CF3 /* HostFileManager.swift */,
 				C63D6BFF204696F800103CF3 /* AppDelegate.swift */,
 				C63D6C01204696F800103CF3 /* Assets.xcassets */,

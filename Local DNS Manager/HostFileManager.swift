@@ -10,7 +10,13 @@ import Cocoa
 
 class HostFileManager: NSObject {
     let filePath = "/etc/hosts";
-    let demoFile = "Desktop/hosts"
+    let outputFile = "hosts"
+    let outputDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+    var outputFileURL: URL
+    
+    override init() {
+        outputFileURL = outputDirectory!.appendingPathComponent(outputFile)
+    }
     
     func getContents() -> String {
         let fileManager = FileManager.default
@@ -22,24 +28,25 @@ class HostFileManager: NSObject {
         return ""
     }
     
-    func updateIP(oldIP: String, newIP: String) {
+    func updateIP(identifier: String, newIP: String) {
         var lines: [String] = []
         self.getContents().enumerateLines { line, _ in lines.append(line)}
         
         let newline = "\n"
         let home = FileManager.default.homeDirectoryForCurrentUser
-        let demoFileURL = home.appendingPathComponent(demoFile)
+        
+        let demoFileURL = home.appendingPathComponent(outputFile)
         
         let fileManager = FileManager.default
-        fileManager.createFile(atPath: demoFileURL.path, contents: nil, attributes: nil)
+        fileManager.createFile(atPath: outputFileURL.path, contents: nil, attributes: nil)
         
-        let fileHandle = try? FileHandle(forWritingTo: demoFileURL)
+        let fileHandle = try? FileHandle(forWritingTo: outputFileURL)
         
         for line in lines {
     
             if(line.range(of: ".*\t.*", options: .regularExpression, range: nil, locale: nil) != nil) {
                 let separatedLine = line.split(separator: "\t")
-                if(separatedLine[1] == oldIP) {
+                if(separatedLine[1] == identifier) {
                     let _newString = newIP + "\t" + separatedLine[1]
                     fileHandle?.seekToEndOfFile();
                     fileHandle?.write(_newString.data(using: .utf8)!)
@@ -66,12 +73,12 @@ class HostFileManager: NSObject {
         
         let newline = "\n"
         let home = FileManager.default.homeDirectoryForCurrentUser
-        let demoFileURL = home.appendingPathComponent(demoFile)
+        let demoFileURL = home.appendingPathComponent(outputFile)
         
         let fileManager = FileManager.default
-        fileManager.createFile(atPath: demoFileURL.path, contents: nil, attributes: nil)
+        fileManager.createFile(atPath: outputFileURL.path, contents: nil, attributes: nil)
         
-        let fileHandle = try? FileHandle(forWritingTo: demoFileURL)
+        let fileHandle = try? FileHandle(forWritingTo: outputFileURL)
         
         for line in lines {
             fileHandle?.seekToEndOfFile();
@@ -91,12 +98,12 @@ class HostFileManager: NSObject {
         
         let newline = "\n"
         let home = FileManager.default.homeDirectoryForCurrentUser
-        let demoFileURL = home.appendingPathComponent(demoFile)
+        let demoFileURL = home.appendingPathComponent(outputFile)
         
         let fileManager = FileManager.default
-        fileManager.createFile(atPath: demoFileURL.path, contents: nil, attributes: nil)
+        fileManager.createFile(atPath: outputFileURL.path, contents: nil, attributes: nil)
         
-        let fileHandle = try? FileHandle(forWritingTo: demoFileURL)
+        let fileHandle = try? FileHandle(forWritingTo: outputFileURL)
         
         for line in lines {
             
@@ -118,7 +125,7 @@ class HostFileManager: NSObject {
     }
     
     func executeMoveScript() {
-        let myAppleScript = "do shell script \"mv ~/Desktop/hosts /etc/\" with administrator privileges"
+        let myAppleScript = "do shell script \"mv " + outputFileURL.path + " /etc/\" with administrator privileges"
         var error: NSDictionary?
         if let scriptObject = NSAppleScript(source: myAppleScript) {
             scriptObject.executeAndReturnError(&error)

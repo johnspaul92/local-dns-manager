@@ -34,7 +34,7 @@ class EditWindow: NSWindowController {
     
     @IBAction func updateButtonClicked(_ sender: Any) {
         let controller = HostFileManager()
-        controller.updateIP(oldIP: identifier, newIP: ipField.stringValue)
+        controller.updateIP(identifier: identifier, newIP: ipField.stringValue)
         delegate?.updateIP()
         self.window?.close();
     }

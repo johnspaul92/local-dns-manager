@@ -23,7 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, EditWindowDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        let icon = NSImage(named: NSImage.Name(rawValue: "serverIcon"));
+        let icon = NSImage(named: NSImage.Name(rawValue: "serverIcon1"));
         icon!.isTemplate = true // best for dark mode
         dnsMenuItem.image = icon
         dnsMenuItem.menu = dnsMenu

@@ -15,7 +15,7 @@
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "mac_appicon-32@1x.png",
+      "filename" : "mac_appicon-32@1x-1.png",
       "scale" : "1x"
     },
     {
@@ -27,13 +27,13 @@
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "mac_appicon-128@1x.png",
+      "filename" : "mac_appicon-128@2x.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "mac_appicon-128@2x.png",
+      "filename" : "mac_appicon-128@1x-1.png",
       "scale" : "2x"
     },
     {
