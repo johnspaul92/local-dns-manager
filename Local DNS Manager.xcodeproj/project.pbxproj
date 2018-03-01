@@ -12,6 +12,11 @@
 		C63D6C05204696F800103CF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63D6C03204696F800103CF3 /* MainMenu.xib */; };
 		C63D6C11204696F800103CF3 /* Local_DNS_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C10204696F800103CF3 /* Local_DNS_ManagerTests.swift */; };
 		C63D6C1C204696F800103CF3 /* Local_DNS_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C1B204696F800103CF3 /* Local_DNS_ManagerUITests.swift */; };
+		C63D6C312046BD9100103CF3 /* EditWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C2F2046BD9100103CF3 /* EditWindow.swift */; };
+		C63D6C322046BD9100103CF3 /* EditWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63D6C302046BD9100103CF3 /* EditWindow.xib */; };
+		C63D6C342046D16600103CF3 /* HostFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C332046D16600103CF3 /* HostFileManager.swift */; };
+		C63D6C372046F64F00103CF3 /* AddNewWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D6C352046F64F00103CF3 /* AddNewWindow.swift */; };
+		C63D6C382046F64F00103CF3 /* AddNewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63D6C362046F64F00103CF3 /* AddNewWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		C63D6C17204696F800103CF3 /* Local DNS ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local DNS ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63D6C1B204696F800103CF3 /* Local_DNS_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_DNS_ManagerUITests.swift; sourceTree = "<group>"; };
 		C63D6C1D204696F800103CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63D6C2F2046BD9100103CF3 /* EditWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWindow.swift; sourceTree = "<group>"; };
+		C63D6C302046BD9100103CF3 /* EditWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditWindow.xib; sourceTree = "<group>"; };
+		C63D6C332046D16600103CF3 /* HostFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostFileManager.swift; sourceTree = "<group>"; };
+		C63D6C352046F64F00103CF3 /* AddNewWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewWindow.swift; sourceTree = "<group>"; };
+		C63D6C362046F64F00103CF3 /* AddNewWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +104,16 @@
 		C63D6BFE204696F800103CF3 /* Local DNS Manager */ = {
 			isa = PBXGroup;
 			children = (
+				C63D6C332046D16600103CF3 /* HostFileManager.swift */,
 				C63D6BFF204696F800103CF3 /* AppDelegate.swift */,
 				C63D6C01204696F800103CF3 /* Assets.xcassets */,
 				C63D6C03204696F800103CF3 /* MainMenu.xib */,
 				C63D6C06204696F800103CF3 /* Info.plist */,
 				C63D6C07204696F800103CF3 /* Local_DNS_Manager.entitlements */,
+				C63D6C2F2046BD9100103CF3 /* EditWindow.swift */,
+				C63D6C302046BD9100103CF3 /* EditWindow.xib */,
+				C63D6C352046F64F00103CF3 /* AddNewWindow.swift */,
+				C63D6C362046F64F00103CF3 /* AddNewWindow.xib */,
 			);
 			path = "Local DNS Manager";
 			sourceTree = "<group>";
@@ -190,6 +205,11 @@
 					C63D6BFB204696F800103CF3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					C63D6C0B204696F800103CF3 = {
 						CreatedOnToolsVersion = 9.2;
@@ -228,6 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63D6C382046F64F00103CF3 /* AddNewWindow.xib in Resources */,
+				C63D6C322046BD9100103CF3 /* EditWindow.xib in Resources */,
 				C63D6C02204696F800103CF3 /* Assets.xcassets in Resources */,
 				C63D6C05204696F800103CF3 /* MainMenu.xib in Resources */,
 			);
@@ -254,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63D6C372046F64F00103CF3 /* AddNewWindow.swift in Sources */,
+				C63D6C312046BD9100103CF3 /* EditWindow.swift in Sources */,
+				C63D6C342046D16600103CF3 /* HostFileManager.swift in Sources */,
 				C63D6C00204696F800103CF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +436,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Local DNS Manager/Local_DNS_Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Local DNS Manager/Info.plist";
@@ -426,7 +450,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Local DNS Manager/Local_DNS_Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Local DNS Manager/Info.plist";
